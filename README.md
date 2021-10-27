@@ -25,7 +25,6 @@ python deep_sort_app.py \
     --nn_budget=100 \
     --display=True
 
-<code>
 C:\Users\sr996\contrib\
   bin\
     opencv_world451.dll\
@@ -37,7 +36,6 @@ C:\Users\sr996\contrib\
     opencv_world451.lib\
     tensorflow.lib\
 
-</code>
 
 There are additional environment variables required.  $(PYTHON_PATH) should point to the python
 installation directory e.g.
