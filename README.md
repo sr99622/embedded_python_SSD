@@ -26,16 +26,16 @@ python deep_sort_app.py \
     --display=True
 
 <code>
-C:\Users\sr996\contrib
-  bin
-    opencv_world451.dll
-    tensorflow.dll
-  include
-    opencv
-    tensorflow
-  lib
-    opencv_world451.lib
-    tensorflow.lib
+C:\Users\sr996\contrib\
+  bin\
+    opencv_world451.dll\
+    tensorflow.dll\
+  include\
+    opencv\
+    tensorflow\
+  lib\
+    opencv_world451.lib\
+    tensorflow.lib\
 
 </code>
 
