@@ -26,9 +26,9 @@ python deep_sort_app.py \
     --display=True
 
 C:\Users\sr996\contrib\
-  bin\
-    opencv_world451.dll\
-    tensorflow.dll\
+\t  bin\
+\t\t   opencv_world451.dll\
+\t\t    tensorflow.dll\
   include\
     opencv\
     tensorflow\
