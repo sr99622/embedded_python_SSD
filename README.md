@@ -18,6 +18,13 @@ $(CONTRIB_PATH) has the location of the opencv and tensorflow files similar to t
 shown below.  The PATH environment variable should be appended to include the contrib\bin 
 folder as well for runtime operation.
 
+python deep_sort_app.py \
+    --sequence_dir=./MOT16/test/MOT16-06 \
+    --detection_file=./resources/detections/MOT16_POI_test/MOT16-06.npy \
+    --min_confidence=0.3 \
+    --nn_budget=100 \
+    --display=True
+
 <code>
 C:\Users\sr996\contrib
   bin
