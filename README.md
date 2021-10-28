@@ -13,7 +13,7 @@ subdirectory so the program can find it.
 The python portion of the code is also found in the executable subdirectory and may be run
 independently using the command python model.py to confirm results.
 
-To compile the program, environment variabled are used to find include and lib files.
+To compile the program, environment variables are used to find include and lib files.
 $(CONTRIB_PATH) has the location of the opencv files similar to the directory fragment
 shown below.  The PATH environment variable should be appended to include the contrib\bin 
 folder as well for runtime operation.
@@ -37,4 +37,10 @@ and $(NUMPY_PATH)
 
 C:\Users\sr996\AppData\Local\Programs\Python\Python36\Lib\site-packages\numpy\core
 
-This program uses code taken from the article publiched on CodeProject <a href=https://www.codeproject.com/articles/820116/embedding-python-program-in-a-c-cplusplus-code>Embedding Python program in a C/C++ code</a>
+This program uses code taken from the article published on CodeProject <a href=https://www.codeproject.com/articles/820116/embedding-python-program-in-a-c-cplusplus-code>Embedding Python program in a C/C++ code</a>
+
+Python packages used
+Python 3.6.8
+opencv 4.4.0.42
+tensorflow 2.6.0
+numpy 1.19.5
