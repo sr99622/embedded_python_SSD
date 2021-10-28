@@ -18,7 +18,7 @@ $(CONTRIB_PATH) has the location of the opencv and tensorflow files similar to t
 shown below.  The PATH environment variable should be appended to include the contrib\bin 
 folder as well for runtime operation.
 
-`
+```
     C:\Users\sr996\contrib
       bin
         opencv_world451.dll
@@ -29,7 +29,7 @@ folder as well for runtime operation.
       lib
         opencv_world451.lib
         tensorflow.lib
-`
+```
 
 There are additional environment variables required.  $(PYTHON_PATH) should point to the python
 installation directory e.g.
