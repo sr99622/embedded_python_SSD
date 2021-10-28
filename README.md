@@ -14,7 +14,7 @@ The python portion of the code is also found in the executable subdirectory and 
 independently using the command python model.py to confirm results.
 
 To compile the program, environment variabled are used to find include and lib files.
-$(CONTRIB_PATH) has the location of the opencv and tensorflow files similar to the directory fragment
+$(CONTRIB_PATH) has the location of the opencv files similar to the directory fragment
 shown below.  The PATH environment variable should be appended to include the contrib\bin 
 folder as well for runtime operation.
 
@@ -22,13 +22,10 @@ folder as well for runtime operation.
     C:\Users\sr996\contrib
       bin
         opencv_world451.dll
-        tensorflow.dll
       include
-        opencv
-        tensorflow
+        opencv2
       lib
         opencv_world451.lib
-        tensorflow.lib
 ```
 
 There are additional environment variables required.  $(PYTHON_PATH) should point to the python
