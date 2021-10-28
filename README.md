@@ -40,7 +40,7 @@ C:\Users\sr996\AppData\Local\Programs\Python\Python36\Lib\site-packages\numpy\co
 This program uses code taken from the article published on CodeProject <a href=https://www.codeproject.com/articles/820116/embedding-python-program-in-a-c-cplusplus-code>Embedding Python program in a C/C++ code</a>
 
 Python packages used
-Python 3.6.8
-opencv 4.4.0.42
-tensorflow 2.6.0
-numpy 1.19.5
+<br>Python 3.6.8
+<br>opencv 4.4.0.42
+<br>tensorflow 2.6.0
+<br>numpy 1.19.5
