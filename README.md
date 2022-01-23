@@ -49,12 +49,12 @@ To use with a conda installation the following instructions may be helpful
 
 Using the conda prompt, build a conda environment with tensorflow-gpu
 
-conda create --name tf tensorflow-gpu
-activate tf
-conda install -c conda-forge opencv
+<br>conda create --name tf tensorflow-gpu
+<br>activate tf
+<br>conda install -c conda-forge opencv
 
-set PYTHON_PATH=C:\Users\sr996\anaconda3\envs\tf
-set NUMPY_PATH=C:\Users\sr996\anaconda3\Lib\site-packages\numpy\core
-set PYTHONHOME=%PYTHON_PATH
+<br>set PYTHON_PATH=C:\Users\sr996\anaconda3\envs\tf
+<br>set NUMPY_PATH=C:\Users\sr996\anaconda3\Lib\site-packages\numpy\core
+<br>set PYTHONHOME=%PYTHON_PATH
 
 Use fully qualified file pathnames in the code
