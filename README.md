@@ -57,4 +57,4 @@ Using the conda prompt, build a conda environment with tensorflow-gpu
 <br>set NUMPY_PATH=C:\Users\sr996\anaconda3\Lib\site-packages\numpy\core
 <br>set PYTHONHOME=%PYTHON_PATH
 
-Use fully qualified file pathnames in the code
+Launch the executable from the conda prompt
