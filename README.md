@@ -44,3 +44,17 @@ Python packages used
 <br>opencv 4.4.0.42
 <br>tensorflow 2.6.0
 <br>numpy 1.19.5
+
+To use with a conda installation the following instructions may be helpful
+
+Using the conda prompt, build a conda environment with tensorflow-gpu
+
+conda create --name tf tensorflow-gpu
+activate tf
+conda install -c conda-forge opencv
+
+set PYTHON_PATH=C:\Users\sr996\anaconda3\envs\tf
+set NUMPY_PATH=C:\Users\sr996\anaconda3\Lib\site-packages\numpy\core
+set PYTHONHOME=%PYTHON_PATH
+
+Use fully qualified file pathnames in the code
